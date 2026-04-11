@@ -35,7 +35,7 @@
       "request": "launch",
       "mainClass": "com.fitness.aiservice.AiServiceApplication",
       "env": {
-        "GEMINI_API_KEY": "AIzaSyBh4VRqiiHn-lCh0VJtcEr8wFs3rVobMtE",
+        "GEMINI_API_KEY": "",
         "GEMINI_API_URL": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key="
       }
     }
