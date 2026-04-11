@@ -1,0 +1,43 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "AiserviceApplication",
+      "request": "launch",
+      "mainClass": "com.fitness.aiservice.AiserviceApplication",
+      "projectName": "ai-service"
+    },
+    {
+      "type": "java",
+      "name": "UserserviseApplication",
+      "request": "launch",
+      "mainClass": "com.fitness.userservise.UserserviseApplication",
+      "projectName": "userservice"
+    },
+    {
+      "type": "java",
+      "name": "EurekaApplication",
+      "request": "launch",
+      "mainClass": "com.server.eureka.EurekaApplication",
+      "projectName": "eureka"
+    },
+    {
+      "type": "java",
+      "name": "ActivityserviceApplication",
+      "request": "launch",
+      "mainClass": "com.fitness.activityservice.ActivityserviceApplication",
+      "projectName": "activityservice"
+    },
+    {
+      "type": "java",
+      "name": "Run AI Service",
+      "request": "launch",
+      "mainClass": "com.fitness.aiservice.AiServiceApplication",
+      "env": {
+        "GEMINI_API_KEY": "AIzaSyBh4VRqiiHn-lCh0VJtcEr8wFs3rVobMtE",
+        "GEMINI_API_URL": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key="
+      }
+    }
+  ]
+}
